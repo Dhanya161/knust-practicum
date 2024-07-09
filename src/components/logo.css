@@ -1,0 +1,27 @@
+.logo {
+  line-height: 1;
+}
+
+@media (min-width: 1200px) {
+  .logo {
+    width: 280px;
+  }
+}
+
+.logo img {
+  max-height: 26px;
+  margin-right: 10px;
+  
+}
+
+.toggle-sidebar-btn {
+  margin-right: 0.5rem; 
+  font-size: 30px;
+}
+
+.logo span {
+  font-size: 15px;
+  font-weight: 700;
+  color: #080808;
+  font-family: 'Nunito', sans-serif;
+}

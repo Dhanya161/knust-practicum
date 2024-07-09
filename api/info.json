@@ -1,0 +1,30 @@
+{
+  "cards": [
+    {
+      "_id": "1",
+      "name": "Today's Letters",
+      "image": "bi bi-envelope-arrow-down",
+      "number": 12
+    },
+    {
+      "_id": "2",
+      "name": "Total Letters",
+      "image": "bi bi-envelope-paper",
+      "number": 112
+    },
+    {
+      "_id": "3",
+      "name": "Approved",
+      "image": "bi bi-envelope-check",
+      "number": 87
+    },
+    {
+      "_id": "4",
+      "name": "Rejected",
+      "image": "bi bi-envelope-x",
+      "number": 33
+    }
+
+    
+  ]
+}
