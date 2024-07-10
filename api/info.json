@@ -3,26 +3,26 @@
     {
       "_id": "1",
       "name": "Today's Letters",
-      "image": "bi bi-envelope-arrow-down",
-      "number": 12
+      "icon": "bi bi-envelope-arrow-down",
+      "value": 12
     },
     {
       "_id": "2",
       "name": "Total Letters",
-      "image": "bi bi-envelope-paper",
-      "number": 112
+      "icon": "bi bi-envelope-paper",
+      "value": 112
     },
     {
       "_id": "3",
       "name": "Approved",
-      "image": "bi bi-envelope-check",
-      "number": 87
+      "icon": "bi bi-envelope-check",
+      "value": 87
     },
     {
       "_id": "4",
       "name": "Rejected",
-      "image": "bi bi-envelope-x",
-      "number": 33
+      "icon": "bi bi-envelope-x",
+      "value": 33
     }
 
     
