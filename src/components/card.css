@@ -12,21 +12,26 @@
 }
 
 .card {
-  max-width: 300px;
+  max-width: 280px;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
   background-color: #fff;
-  display: flex;
-  padding: 20px;
+ 
   
 }
 
 .card-icon {
-  color: #df1be3;
-  background: #f6f6fe;
-  font-size: 25px;
-  padding: 10px;
+  color: #fff;
+  background-image: linear-gradient(to right, #5a036b, #ea5489);
+  border-radius: 20%;
+  padding: 5px;
+  
+  
+}
+
+.card.info-card h5 {
+  color: #434548;
 }
 
 .card h6 {
