@@ -7,8 +7,8 @@ function Card({ card }) {
         className=""
         style={{
           margin: "20px",
-          height: "400px",
-          width: "550px",
+          height: "70px",
+          width: "300px",
           background: "",
           borderRadius: "1rem",
           boxShadow: "0 0 10px rgba(0,0,0,0.1)",

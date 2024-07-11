@@ -3,7 +3,7 @@ import "./dashboard.css";
 import Card from "./Card";
 
 function Dashboard() {
-  const [cards, setCards] = useState([]);
+  const [cards, setCards] = useState();
 
   const fetchData = () => {
     fetch("http://localhost:5000/cards")
@@ -18,14 +18,25 @@ function Dashboard() {
     fetchData();
   }, []);
 
+
+  const cardsList = cards && cards.map((card) => <Card key={card._id} card={card} />);
+
   return (
-    <section className="">
-          <div className="" style={{width:"100vw", minHeight:"100vh", display:"flex", alignItems:"center" , justifyContent:"center", flexDirection:"column", padding:"10px" ,overflowX: 'hidden'}}>
-            {cards &&
-              cards.length > 0 &&
-              cards.map((card) => <Card key={card._id} card={card} />)}
-          </div>
-    </section>
+    <div
+      className=""
+      style={{
+        width: "100wv",
+        minHeight: "100vh",
+        display: "flex",
+        alignItems: "",
+        justifyContent:"",
+        flexDirection: "column",
+        padding: "10px",
+        overflowX: "hidden",
+      }}
+    >
+      {cardsList}
+    </div>
   );
 }
 
