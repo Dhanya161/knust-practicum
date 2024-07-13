@@ -6,7 +6,7 @@ function Dashboard() {
   const [cards, setCards] = useState();
 
   const fetchData = () => {
-    fetch("http://localhost:5000/cards")
+    fetch("http://localhost:3000/cards")
       .then((res) => res.json())
       .then((data) => {
         setCards(data);
@@ -22,9 +22,7 @@ function Dashboard() {
   const cardsList = cards && cards.map((card) => <Card key={card._id} card={card} />);
 
   return (
-    <div
-      className=""
-      style={{
+    <div className="" style={{
         width: "100wv",
         minHeight: "100vh",
         display: "flex",
@@ -33,10 +31,11 @@ function Dashboard() {
         flexDirection: "column",
         padding: "10px",
         overflowX: "hidden",
-      }}
-    >
-      {cardsList}
+      }}>{cardsList}
+
+    
     </div>
+    
   );
 }
 

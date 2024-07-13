@@ -8,7 +8,7 @@
   scroll-behaviour: smooth;
   --primary: #4154f1;
   --second: #717ff5;
-  --bgColor: #f6f9ff;
+  --bgColor: #eed9fb;
 }
 
 *{
@@ -34,7 +34,6 @@ a:hover {
   text-decoration: none;
 }
 
-div,
 h1,
 h2,
 h3,
