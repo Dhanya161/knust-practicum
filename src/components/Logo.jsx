@@ -13,9 +13,9 @@ function Logo() {
         onClick={handleToggleSidebar}
       ></i>
       
-      <a href="/" className="logo d-flex align-items-center">
+      <div className="logo d-flex align-items-center">
         <span className="d-none d-lg-block">KNUST PRACTICUM</span>
-      </a>
+      </div>
 
       
     </div>

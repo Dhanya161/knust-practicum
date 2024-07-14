@@ -9,18 +9,13 @@ import Dashboard from "./components/Dashboard";
 import Manage from "./components/Manage";
 import Activity from "./components/Activity";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Comp from "./comp";
-import { LabelComponent } from "./components/ui/Label";
+import SheetComponent from "./components/ui/Sheet";
 
 function App() {
   return (
     <BrowserRouter>
       <div style={{marginTop:"50px"}}>
         <Header />
-        {/* <SideBar /> */}
-        <Dashboard />
-        {/* <LabelComponent />
-        <Comp /> */}
         <Routes>
           <Route exact path="/" element={<Dashboard />} />
           <Route exact path="/manage" element={<Manage />} />

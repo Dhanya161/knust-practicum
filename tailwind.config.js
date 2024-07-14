@@ -1,9 +1,15 @@
-const { fontFamily } = require("tailwindcss/defaultTheme")
+const { fontFamily } = require("tailwindcss/defaultTheme");
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   darkMode: ["class"],
-  content: ["app/**/*.{ts,tsx}", "components/**/*.{ts,tsx}", "./src/**.{jsx,js,ts,tsx}" ],
+  content: [
+    "app/**/*.{ts,tsx}",
+    "components/**/*.{ts,tsx}",
+    "./src/**.{jsx,js,ts,tsx}",
+    "./src/components/ui/**.{jsx,tsx,js,ts}",
+    "./src/shadcn/ui/**.{jsx,tsx,ts,js}",
+  ],
   theme: {
     container: {
       center: true,
@@ -73,4 +79,4 @@ module.exports = {
     },
   },
   plugins: [require("tailwindcss-animate")],
-}
+};

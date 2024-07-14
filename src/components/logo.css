@@ -1,12 +1,14 @@
 .logo {
   line-height: 1;
+  height: 100%;
+  width: 100%;
 }
 
-@media (min-width: 1200px) {
+/* @media (min-width: 1200px) {
   .logo {
     width: 280px;
   }
-}
+} */
 
 .toggle-sidebar-btn {
   margin-right: 0.5rem; 

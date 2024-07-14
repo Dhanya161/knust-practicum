@@ -24,14 +24,16 @@ function Dashboard() {
   return (
     <div className="" style={{
         width: "100wv",
-        minHeight: "100vh",
+        minHeight: "10rem",
         display: "flex",
         alignItems: "",
         justifyContent:"",
-        flexDirection: "column",
+        flexDirection: "",
         padding: "10px",
         overflowX: "hidden",
-      }}>{cardsList}
+        flexWrap: "wrap"
+      }}>
+        {[cardsList, cardsList]}
 
     
     </div>

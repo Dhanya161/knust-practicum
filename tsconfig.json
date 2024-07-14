@@ -26,5 +26,5 @@
   },
   "include": [
     "src"
-, "src/components", "src/lib", "src/lib"  ]
+, "src/components", "src/lib", "src/lib", "src/components/ui" ]
 }

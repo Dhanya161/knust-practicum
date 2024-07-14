@@ -1,5 +1,5 @@
 import React from 'react'
-import './pageTitle.css';
+// import './pageTitle.css';
 
 function PageTitle({ page }) {
   return (
