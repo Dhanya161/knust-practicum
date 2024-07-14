@@ -1,5 +1,5 @@
 import React from 'react';
-import './sideBar.css';
+// import './sideBar.css';
 import navList from '../data/navItem';
 import NavItem from './NavItem';
 import { Link, useLocation } from 'react-router-dom';
