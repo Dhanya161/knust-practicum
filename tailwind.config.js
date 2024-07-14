@@ -8,6 +8,7 @@ module.exports = {
     "components/**/*.{ts,tsx}",
     "./src/**.{jsx,js,ts,tsx}",
     "./src/components/ui/**.{jsx,tsx,js,ts}",
+    "./src/components/**.{jsx,tsx,js,ts}",
     "./src/shadcn/ui/**.{jsx,tsx,ts,js}",
   ],
   theme: {

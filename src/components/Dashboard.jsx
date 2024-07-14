@@ -33,7 +33,7 @@ function Dashboard() {
         overflowX: "hidden",
         flexWrap: "wrap"
       }}>
-        {[cardsList, cardsList]}
+        {[cardsList]}
 
     
     </div>

@@ -8,21 +8,43 @@ import SideBar from "./components/SideBar";
 import Dashboard from "./components/Dashboard";
 import Manage from "./components/Manage";
 import Activity from "./components/Activity";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import {
+  BrowserRouter,
+  Routes,
+  Route,
+  createBrowserRouter,
+  createRoutesFromElements,
+  RouterProvider,
+  RouteObject
+} from "react-router-dom";
 import SheetComponent from "./components/ui/Sheet";
+import ExpandCard from "./components/ExpandCard";
+import { Loader } from "lucide-react";
+
+const routes = [
+  {
+    path: "/",
+    element: <Dashboard />,
+  },
+  {
+    path: "manage/:name",
+    Loader : (request)=>{return request},
+    element: <ExpandCard />,
+  },
+  {
+    path: "activity",
+    element: <Activity />,
+  },
+];
+
+const router = createBrowserRouter(routes);
 
 function App() {
   return (
-    <BrowserRouter>
-      <div style={{marginTop:"50px"}}>
-        <Header />
-        <Routes>
-          <Route exact path="/" element={<Dashboard />} />
-          <Route exact path="/manage" element={<Manage />} />
-          <Route exact path="/activity" element={<Activity />} />
-        </Routes>
-      </div>
-    </BrowserRouter>
+    <div style={{ marginTop: "50px" }}>
+      <Header />
+      <RouterProvider router={router} />
+    </div>
   );
 }
 

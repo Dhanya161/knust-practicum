@@ -3,25 +3,25 @@
     {
       "_id": "1",
       "name": "Today's Letters",
-      "icon": "bi bi-envelope-arrow-down",
+      "icon": "bi bi-envelope-arrow-up-fill",
       "value": 12
     },
     {
       "_id": "2",
       "name": "Total Letters",
-      "icon": "bi bi-envelope-paper",
+      "icon": "bi bi-envelope-paper-fill",
       "value": 112
     },
     {
       "_id": "3",
       "name": "Approved",
-      "icon": "bi bi-envelope-check",
+      "icon": "bi bi-envelope-check-fill",
       "value": 87
     },
     {
       "_id": "4",
       "name": "Rejected",
-      "icon": "bi bi-envelope-x",
+      "icon": "bi bi-envelope-x-fill",
       "value": 33
     }
 
