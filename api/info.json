@@ -1,16 +1,11 @@
+
 {
   "cards": [
     {
       "_id": "1",
-      "name": "Today's Letters",
+      "name": "Today",
       "icon": "bi bi-envelope-arrow-up-fill",
       "value": 12
-    },
-    {
-      "_id": "2",
-      "name": "Total Letters",
-      "icon": "bi bi-envelope-paper-fill",
-      "value": 112
     },
     {
       "_id": "3",
@@ -24,7 +19,432 @@
       "icon": "bi bi-envelope-x-fill",
       "value": 33
     }
-
-    
+  ],
+  
+  "Today": [
+    {
+      "id": 1,
+      "name": "application letter",
+      "createdAt": "Thu 12 Jan 2020",
+      "type": "general letter",
+      "file": "someFile url"
+    },
+    {
+      "id": 2,
+      "name": "invoice",
+      "createdAt": "Mon 25 Mar 2019",
+      "type": "financial document",
+      "file": "anotherFile url"
+    },
+    {
+      "id": 3,
+      "name": "resume",
+      "createdAt": "Fri 05 Jul 2021",
+      "type": "job application",
+      "file": "resumeFile url"
+    },
+    {
+      "id": 4,
+      "name": "meeting agenda",
+      "createdAt": "Wed 18 Sep 2019",
+      "type": "business document",
+      "file": "agendaFile url"
+    },
+    {
+      "id": 5,
+      "name": "project proposal",
+      "createdAt": "Tue 02 Feb 2021",
+      "type": "proposal",
+      "file": "proposalFile url"
+    },
+    {
+      "id": 6,
+      "name": "survey questionnaire",
+      "createdAt": "Sat 30 Nov 2019",
+      "type": "research",
+      "file": "surveyFile url"
+    },
+    {
+      "id": 7,
+      "name": "thank you note",
+      "createdAt": "Sun 08 Mar 2020",
+      "type": "appreciation",
+      "file": "thankYouFile url"
+    },
+    {
+      "id": 8,
+      "name": "presentation slides",
+      "createdAt": "Fri 14 Aug 2020",
+      "type": "slide deck",
+      "file": "slidesFile url"
+    },
+    {
+      "id": 9,
+      "name": "user manual",
+      "createdAt": "Thu 22 Oct 2020",
+      "type": "instructions",
+      "file": "manualFile url"
+    },
+    {
+      "id": 10,
+      "name": "recipe",
+      "createdAt": "Wed 03 Jun 2020",
+      "type": "cooking",
+      "file": "recipeFile url"
+    },
+    {
+      "id": 11,
+      "name": "research paper",
+      "createdAt": "Mon 17 Aug 2020",
+      "type": "academic",
+      "file": "researchPaperFile url"
+    },
+    {
+      "id": 12,
+      "name": "travel itinerary",
+      "createdAt": "Tue 29 Sep 2020",
+      "type": "trip details",
+      "file": "itineraryFile url"
+    },
+    {
+      "id": 13,
+      "name": "contract",
+      "createdAt": "Fri 07 Feb 2020",
+      "type": "legal agreement",
+      "file": "contractFile url"
+    },
+    {
+      "id": 14,
+      "name": "blog post",
+      "createdAt": "Sun 12 Apr 2020",
+      "type": "content",
+      "file": "blogPostFile url"
+    },
+    {
+      "id": 15,
+      "name": "meeting minutes",
+      "createdAt": "Wed 11 Mar 2020",
+      "type": "record",
+      "file": "minutesFile url"
+    },
+    {
+      "id": 16,
+      "name": "product specification",
+      "createdAt": "Thu 19 Nov 2020",
+      "type": "spec",
+      "file": "specificationFile url"
+    },
+    {
+      "id": 17,
+      "name": "birthday invitation",
+      "createdAt": "Sat 28 Dec 2019",
+      "type": "celebration",
+      "file": "invitationFile url"
+    },
+    {
+      "id": 18,
+      "name": "survey results",
+      "createdAt": "Tue 10 Mar 2020",
+      "type": "data",
+      "file": "resultsFile url"
+    },
+    {
+      "id": 19,
+      "name": "newsletter",
+      "createdAt": "Mon 06 Apr 2020",
+      "type": "communication",
+      "file": "newsletterFile url"
+    },
+    {
+      "id": 20,
+      "name": "training manual",
+      "createdAt": "Wed 15 Jul 2020",
+      "type": "instructional",
+      "file": "trainingManualFile url"
+    }
+  ],
+  "Approved": [
+    {
+      "id": 1,
+      "name": "application letter",
+      "createdAt": "Thu 12 Jan 2020",
+      "type": "general letter",
+      "file": "someFile url"
+    },
+    {
+      "id": 2,
+      "name": "invoice",
+      "createdAt": "Mon 25 Mar 2019",
+      "type": "financial document",
+      "file": "anotherFile url"
+    },
+    {
+      "id": 3,
+      "name": "resume",
+      "createdAt": "Fri 05 Jul 2021",
+      "type": "job application",
+      "file": "resumeFile url"
+    },
+    {
+      "id": 4,
+      "name": "meeting agenda",
+      "createdAt": "Wed 18 Sep 2019",
+      "type": "business document",
+      "file": "agendaFile url"
+    },
+    {
+      "id": 5,
+      "name": "project proposal",
+      "createdAt": "Tue 02 Feb 2021",
+      "type": "proposal",
+      "file": "proposalFile url"
+    },
+    {
+      "id": 6,
+      "name": "survey questionnaire",
+      "createdAt": "Sat 30 Nov 2019",
+      "type": "research",
+      "file": "surveyFile url"
+    },
+    {
+      "id": 7,
+      "name": "thank you note",
+      "createdAt": "Sun 08 Mar 2020",
+      "type": "appreciation",
+      "file": "thankYouFile url"
+    },
+    {
+      "id": 8,
+      "name": "presentation slides",
+      "createdAt": "Fri 14 Aug 2020",
+      "type": "slide deck",
+      "file": "slidesFile url"
+    },
+    {
+      "id": 9,
+      "name": "user manual",
+      "createdAt": "Thu 22 Oct 2020",
+      "type": "instructions",
+      "file": "manualFile url"
+    },
+    {
+      "id": 10,
+      "name": "recipe",
+      "createdAt": "Wed 03 Jun 2020",
+      "type": "cooking",
+      "file": "recipeFile url"
+    },
+    {
+      "id": 11,
+      "name": "research paper",
+      "createdAt": "Mon 17 Aug 2020",
+      "type": "academic",
+      "file": "researchPaperFile url"
+    },
+    {
+      "id": 12,
+      "name": "travel itinerary",
+      "createdAt": "Tue 29 Sep 2020",
+      "type": "trip details",
+      "file": "itineraryFile url"
+    },
+    {
+      "id": 13,
+      "name": "contract",
+      "createdAt": "Fri 07 Feb 2020",
+      "type": "legal agreement",
+      "file": "contractFile url"
+    },
+    {
+      "id": 14,
+      "name": "blog post",
+      "createdAt": "Sun 12 Apr 2020",
+      "type": "content",
+      "file": "blogPostFile url"
+    },
+    {
+      "id": 15,
+      "name": "meeting minutes",
+      "createdAt": "Wed 11 Mar 2020",
+      "type": "record",
+      "file": "minutesFile url"
+    },
+    {
+      "id": 16,
+      "name": "product specification",
+      "createdAt": "Thu 19 Nov 2020",
+      "type": "spec",
+      "file": "specificationFile url"
+    },
+    {
+      "id": 17,
+      "name": "birthday invitation",
+      "createdAt": "Sat 28 Dec 2019",
+      "type": "celebration",
+      "file": "invitationFile url"
+    },
+    {
+      "id": 18,
+      "name": "survey results",
+      "createdAt": "Tue 10 Mar 2020",
+      "type": "data",
+      "file": "resultsFile url"
+    },
+    {
+      "id": 19,
+      "name": "newsletter",
+      "createdAt": "Mon 06 Apr 2020",
+      "type": "communication",
+      "file": "newsletterFile url"
+    },
+    {
+      "id": 20,
+      "name": "training manual",
+      "createdAt": "Wed 15 Jul 2020",
+      "type": "instructional",
+      "file": "trainingManualFile url"
+    }
+  ],
+  "Rejected": [
+    {
+      "id": 1,
+      "name": "application letter",
+      "createdAt": "Thu 12 Jan 2020",
+      "type": "general letter",
+      "file": "someFile url"
+    },
+    {
+      "id": 2,
+      "name": "invoice",
+      "createdAt": "Mon 25 Mar 2019",
+      "type": "financial document",
+      "file": "anotherFile url"
+    },
+    {
+      "id": 3,
+      "name": "resume",
+      "createdAt": "Fri 05 Jul 2021",
+      "type": "job application",
+      "file": "resumeFile url"
+    },
+    {
+      "id": 4,
+      "name": "meeting agenda",
+      "createdAt": "Wed 18 Sep 2019",
+      "type": "business document",
+      "file": "agendaFile url"
+    },
+    {
+      "id": 5,
+      "name": "project proposal",
+      "createdAt": "Tue 02 Feb 2021",
+      "type": "proposal",
+      "file": "proposalFile url"
+    },
+    {
+      "id": 6,
+      "name": "survey questionnaire",
+      "createdAt": "Sat 30 Nov 2019",
+      "type": "research",
+      "file": "surveyFile url"
+    },
+    {
+      "id": 7,
+      "name": "thank you note",
+      "createdAt": "Sun 08 Mar 2020",
+      "type": "appreciation",
+      "file": "thankYouFile url"
+    },
+    {
+      "id": 8,
+      "name": "presentation slides",
+      "createdAt": "Fri 14 Aug 2020",
+      "type": "slide deck",
+      "file": "slidesFile url"
+    },
+    {
+      "id": 9,
+      "name": "user manual",
+      "createdAt": "Thu 22 Oct 2020",
+      "type": "instructions",
+      "file": "manualFile url"
+    },
+    {
+      "id": 10,
+      "name": "recipe",
+      "createdAt": "Wed 03 Jun 2020",
+      "type": "cooking",
+      "file": "recipeFile url"
+    },
+    {
+      "id": 11,
+      "name": "research paper",
+      "createdAt": "Mon 17 Aug 2020",
+      "type": "academic",
+      "file": "researchPaperFile url"
+    },
+    {
+      "id": 12,
+      "name": "travel itinerary",
+      "createdAt": "Tue 29 Sep 2020",
+      "type": "trip details",
+      "file": "itineraryFile url"
+    },
+    {
+      "id": 13,
+      "name": "contract",
+      "createdAt": "Fri 07 Feb 2020",
+      "type": "legal agreement",
+      "file": "contractFile url"
+    },
+    {
+      "id": 14,
+      "name": "blog post",
+      "createdAt": "Sun 12 Apr 2020",
+      "type": "content",
+      "file": "blogPostFile url"
+    },
+    {
+      "id": 15,
+      "name": "meeting minutes",
+      "createdAt": "Wed 11 Mar 2020",
+      "type": "record",
+      "file": "minutesFile url"
+    },
+    {
+      "id": 16,
+      "name": "product specification",
+      "createdAt": "Thu 19 Nov 2020",
+      "type": "spec",
+      "file": "specificationFile url"
+    },
+    {
+      "id": 17,
+      "name": "birthday invitation",
+      "createdAt": "Sat 28 Dec 2019",
+      "type": "celebration",
+      "file": "invitationFile url"
+    },
+    {
+      "id": 18,
+      "name": "survey results",
+      "createdAt": "Tue 10 Mar 2020",
+      "type": "data",
+      "file": "resultsFile url"
+    },
+    {
+      "id": 19,
+      "name": "newsletter",
+      "createdAt": "Mon 06 Apr 2020",
+      "type": "communication",
+      "file": "newsletterFile url"
+    },
+    {
+      "id": 20,
+      "name": "training manual",
+      "createdAt": "Wed 15 Jul 2020",
+      "type": "instructional",
+      "file": "trainingManualFile url"
+    }
   ]
 }

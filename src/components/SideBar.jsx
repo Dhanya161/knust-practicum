@@ -4,16 +4,35 @@ import navList from "../data/navItem";
 import NavItem from "./NavItem";
 import { Link, useLocation } from "react-router-dom";
 
-export function SideBarItem({ icon, title }) {
-  const location = useLocation();
+export const navItems = [
+  {
+    icon: "bi bi-speedometer",
+    title: "Dashboard",
+    destination: "/",
+  },
+  {
+    icon: "bi bi-diagram-3",
+    title: "Manage",
+    destination: "manage",
+  },
+  {
+    icon: "bi bi-activity",
+    title: "Activity",
+    destination: "activity",
+  },
+];
+
+
+export function SideBarItem({ icon, title, destination }) {
+  // const location = useLocation();
   return (
-    <Link
-      className={`nav-link ${location.pathname === "/manage" ? "active" : ""}`}
-      to="/manage"
+    <a
+      className={`nav-link  nav-item h-[4rem] my-2  rounded-md shadow-sm flex items-center justify-start px-4  gap-2`}
+       href= {`/${destination}`}
     >
-      <i className="bi bi-kanban"></i>
+      <i className={`bi  ${icon}`}></i>
       <span>{title}</span>
-    </Link>
+    </a>
   );
 }
 

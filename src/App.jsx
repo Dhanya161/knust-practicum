@@ -28,7 +28,7 @@ const routes = [
   },
   {
     path: "manage/:name",
-    Loader : (request)=>{return request},
+    loader : async (request)=>await  request,
     element: <ExpandCard />,
   },
   {
