@@ -20,26 +20,64 @@ import {
 import SheetComponent from "./components/ui/Sheet";
 import ExpandCard from "./components/ExpandCard";
 import { Loader } from "lucide-react";
+import {auth} from "./firebase.config"
+import { useEffect } from "react";
+import SignInComponent from "./authentication/signInComponent"
+import {getCookie} from "./lib/utils"
+
+
 
 const routes = [
   {
     path: "/",
+    action: async () => {
+      if(!getCookie("user")){
+        window.location.href="/auth"
+      }
+    },
+    loader: async (request) => {
+      if(!getCookie("user")){
+        window.location.href="/auth"
+      }
+      return await request;
+    },
     element: <Dashboard />,
   },
   {
     path: "manage/:name",
-    loader : async (request)=>await  request,
+    loader : async (request)=>{
+      if(!getCookie("user")){
+        window.location.href="/auth"
+      }
+      return await request;
+    },
     element: <ExpandCard />,
   },
   {
     path: "activity",
+    loader : async (request)=>{
+      if(!getCookie("user")){
+        window.location.href="/auth"
+      }
+      return await request;
+    },
     element: <Activity />,
   },
+  {
+    path: "/auth",
+    
+    element: <SignInComponent />,
+  }
 ];
 
 const router = createBrowserRouter(routes);
 
 function App() {
+  // useEffect(()=>{
+  //  if(!getCookie("user")){
+  //    window.location.href="/auth"
+  //  }
+  // },[])
   return (
     <div style={{ marginTop: "50px" }}>
       <Header />
