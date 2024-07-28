@@ -1,5 +1,217 @@
-
 {
+  "charts": [
+    {
+      "label": "Jan",
+      "letters": 0
+    },
+    {
+      "label": "Feb",
+      "letters": 100
+    },
+    {
+      "label": "Mar",
+      "letters": 90
+    },
+    {
+      "label": "Apr",
+      "letters": 250
+    },
+    {
+      "label": "May",
+      "letters": 80
+    },
+    {
+      "label": "June",
+      "letters": 70
+    },
+    {
+      "label": "July",
+      "letters": 300
+    },
+    {
+      "label": "Aug",
+      "letters": 110
+    },
+    {
+      "label": "Sep",
+      "letters": 200
+    },
+    {
+      "label": "Oct",
+      "letters": 243
+    },
+    {
+      "label": "Nov",
+      "letters": 79
+    },
+    {
+      "label": "Dec",
+      "letters": 65
+    }
+  ],
+
+  "internships": [
+    {
+      "company": "Apple",
+      "role": "Sales Personnel",
+      "date": "March 27, 2024",
+      "description": "Convince people to like our product",
+      "link": "https://companyname.com",
+      "slots": 20,
+      "tel": "+233 000 5674",
+      "minimum-level": "Bachelors"
+    },
+    {
+      "company": "Stellar Innovations",
+      "role": "Software Development Intern",
+      "date": "TBD",
+      "description": "Collaborate on cutting-edge projects in AI and machine learning",
+      "link": "https://stellarinnovations.com",
+      "slots": 10,
+      "tel": "+1 555-123-4567",
+      "minimum-level": "Bachelor's"
+    },
+    {
+      "company": "Quantum Dynamics",
+      "role": "Quantum Computing Research Intern",
+      "date": "TBD",
+      "description": "Dive into quantum algorithms and explore the future of computation",
+      "link": "https://quantumdynamics.io",
+      "slots": 5,
+      "tel": "+1 555-987-6543",
+      "minimum-level": "Master's"
+    },
+    {
+      "company": "PixelCraft Studios",
+      "role": "Game Design Intern",
+      "date": "TBD",
+      "description": "Bring virtual worlds to life through captivating gameplay and visuals",
+      "link": "https://pixelcraftstudios.com",
+      "slots": 8,
+      "tel": "+1 555-246-8101",
+      "minimum-level": "Associate's"
+    },
+    {
+      "company": "Solaris Robotics",
+      "role": "Robotics Engineering Intern",
+      "date": "TBD",
+      "description": "Build autonomous robots for real-world applications",
+      "link": "https://solarisrobotics.net",
+      "slots": 6,
+      "tel": "+1 555-777-2020",
+      "minimum-level": "Bachelor's"
+    },
+    {
+      "company": "NexaTech Solutions",
+      "role": "UX/UI Design Intern",
+      "date": "TBD",
+      "description": "Craft intuitive interfaces that enhance user experiences",
+      "link": "https://nexatechsolutions.design"
+    }
+  ],
+  "trainings": [
+    {
+      "company": "Quantum Robotics",
+      "role": "Robotics Engineer",
+      "date": "Fall 2024",
+      "description": "Develop cutting-edge autonomous robots for industrial applications.",
+      "link": "https://quantumrobotics.com/careers",
+      "slots": 5,
+      "tel": "+1 123-456-7890",
+      "minimum-level": "Master's"
+    },
+    {
+      "company": "DataSphere AI",
+      "role": "Machine Learning Researcher",
+      "date": "Immediate",
+      "description": "Conduct research on novel deep learning architectures and algorithms.",
+      "link": "https://datasphereai.com/jobs",
+      "slots": 8,
+      "tel": "+1 987-654-3210",
+      "minimum-level": "PhD"
+    },
+    {
+      "company": "CloudCo",
+      "role": "Cloud Solutions Architect",
+      "date": "Summer 2024",
+      "description": "Design and implement scalable cloud solutions for enterprise clients.",
+      "link": "https://cloudco.com/careers",
+      "slots": 12,
+      "tel": "+1 800-123-4567",
+      "minimum-level": "Bachelor's"
+    },
+    {
+      "company": "PixelCraft Games",
+      "role": "Game Developer (Unity)",
+      "date": "Ongoing",
+      "description": "Create captivating gameplay mechanics and interactive experiences.",
+      "link": "https://pixelcraftgames.com/jobs",
+      "slots": 15,
+      "tel": "+1 555-987-6543",
+      "minimum-level": "Associate's"
+    },
+    {
+      "company": "HealthTech Innovations",
+      "role": "Full Stack Developer (React/Node.js)",
+      "date": "Spring 2024",
+      "description": "Build secure and user-friendly healthcare applications.",
+      "link": "https://healthtechinnovations.com/careers",
+      "slots": 7,
+      "tel": "+1 999-333-4444",
+      "minimum-level": "Bachelor's"
+    },
+    {
+      "company": "QuantumLabs",
+      "role": "Quantum Computing Researcher",
+      "date": "Immediate",
+      "description": "Explore quantum algorithms and contribute to breakthroughs.",
+      "link": "https://quantumlabs.com/jobs",
+      "slots": 3,
+      "tel": "+1 777-888-5555",
+      "minimum-level": "PhD"
+    },
+    {
+      "company": "CyberGuard Systems",
+      "role": "Cybersecurity Analyst",
+      "date": "Fall 2024",
+      "description": "Protect critical infrastructure from cyber threats.",
+      "link": "https://cyberguardsystems.com/careers",
+      "slots": 10,
+      "tel": "+1 234-567-8901",
+      "minimum-level": "Bachelor's"
+    },
+    {
+      "company": "BioTech Innovators",
+      "role": "Bioinformatics Scientist",
+      "date": "Summer 2024",
+      "description": "Analyze genomic data to advance personalized medicine.",
+      "link": "https://biotechinnovators.com/jobs",
+      "slots": 6,
+      "tel": "+1 111-222-3333",
+      "minimum-level": "Master's"
+    },
+    {
+      "company": "CleanEnergy Corp",
+      "role": "Renewable Energy Engineer",
+      "date": "Ongoing",
+      "description": "Design and optimize solar and wind energy systems.",
+      "link": "https://cleanenergycorp.com/careers",
+      "slots": 8,
+      "tel": "+1 444-555-6666",
+      "minimum-level": "Bachelor's"
+    },
+    {
+      "company": "CodeWave Bootcamp",
+      "role": "Mobile App Development",
+      "date": "Summer 2024",
+      "description": "Build native Android apps using Java/Kotlin or Flutter.",
+      "link": "https://codewavebootcamp.com",
+      "slots": 10,
+      "tel": "+1 555-777-1234",
+      "minimum-level": "Bachelor's"
+    }
+  ],
+
   "cards": [
     {
       "_id": "1",

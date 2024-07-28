@@ -6,8 +6,8 @@ import {
   SheetTitle,
   SheetTrigger,
 } from "../../shadcn/ui/sheet";
-import Logo from "../Logo";
-import { navItems, SideBarItem } from "../SideBar";
+import Logo from "../Logo/Logo";
+import { navItems, SideBarItem } from "../SideBar/SideBar";
 import { Link,  } from "react-router-dom";
 
 
