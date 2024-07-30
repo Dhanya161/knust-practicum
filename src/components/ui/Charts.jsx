@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from "react";
-import { Line } from "react-chartjs-2";
+import { Line} from "react-chartjs-2";
 import { defaults } from "chart.js/auto";
 
-defaults.maintainAspectRatio = false;
+defaults.maintainAspectRatio = true;
 defaults.responsive = true;
 
 async function getCharts() {
-  const chartsData = await fetch("http://localhost:4000/charts");
+  const chartsData = await fetch("http://localhost:5000/charts");
   const data = await chartsData.text();
   return data;
 }
@@ -25,7 +25,7 @@ function Charts() {
   }, []);
 
   return (
-    <div className="letterChart" style={{ height: "400px", width: "100%" }}>
+    <div className="letterChart" style={{ height: "300px", width: "100%" }}>
       <Line
         data={{
           labels: letterDataState && letterDataState.map((data) => data.label),
@@ -43,7 +43,10 @@ function Charts() {
         options={{
           elements: {
             line: {
-              tension: 0.5,
+              tension: 0.05 ,
+            },
+            arc: {
+              borderWidth: 1,
             },
           },
         }}

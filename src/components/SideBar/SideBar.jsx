@@ -1,14 +1,14 @@
 import React from "react";
 // import './sideBar.css';
-import navList from "../data/navItem";
-import NavItem from "./NavItem";
+import navList from "../../data/navItem";
+import NavItem from "../Nav/NavItem";
 import { Link, useLocation } from "react-router-dom";
 
 export const navItems = [
   {
     icon: "bi bi-speedometer",
     title: "Dashboard",
-    destination: "/",
+    destination: "",
   },
   {
     icon: "bi bi-diagram-3",
