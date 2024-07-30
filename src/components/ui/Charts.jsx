@@ -32,7 +32,8 @@ function Charts() {
           datasets: [
             {
               label: "Count",
-              data: letterDataState && letterDataState.map((data) => data.letters),
+              data:
+                letterDataState && letterDataState.map((data) => data.letters),
               backgroundColor: "rgba(75, 192, 192, 0.2)",
               borderColor: "#800080",
               borderWidth: 2,
