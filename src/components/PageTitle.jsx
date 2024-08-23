@@ -7,11 +7,11 @@ function PageTitle({ page }) {
       <h1>{page}</h1>
       <nav>
         <ol className="breadcrumb">
-          {/* <li className="breadcrumb-item">Pages
+          <li className="breadcrumb-item">Pages
             <a href="/">
             </a>
-          </li> */}
-          {/* <li className="breadcrumb-item active">{page}</li> */}
+          </li>
+          <li className="breadcrumb-item active">{page}</li>
         </ol>
       </nav>
     </div>

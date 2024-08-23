@@ -49,7 +49,7 @@ export default function SignInComponent() {
   }
 
   return (
-    <main className=" flex flex-col items-center justify-center text-black pt-30 w-full  overflow-x-hidden overflow-y-hidden min-h-screen">
+    <main className=" flex flex-col items-center justify-center text-black pt-20">
       <div>Logo</div>
       <div className="w-[20rem]  flex flex-col items-center justify-center gap-4">
         <Input
@@ -68,7 +68,7 @@ export default function SignInComponent() {
         />
         <Button onClick={(e) => handleOnclick(e)}>Submit</Button>
         <div>
-          <GoogleAuth />
+        <GoogleAuth/>
         </div>
       </div>
     </main>

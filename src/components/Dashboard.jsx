@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from "react";
 import "./dashboard.css";
-import Card from "../Cards/Card";
-import Charts from "../ui/Charts";
+import Card from "./Card";
+import Charts from "./ui/Charts";
 
 function Dashboard() {
   const [cards, setCards] = useState();
 
   const fetchData = () => {
-    fetch("http://localhost:5000/cards")
+    fetch("http://localhost:3000/cards")
       .then((res) => res.json())
       .then((data) => {
         setCards(data);
@@ -27,7 +27,7 @@ function Dashboard() {
       className=""
       style={{
         width: "100wv",
-        minHeight: "100%",
+        minHeight: "10rem",
         display: "flex",
         alignItems: "center",
         justifyContent: "center",
@@ -35,12 +35,11 @@ function Dashboard() {
         padding: "10px",
         overflowX: "hidden",
         flexWrap: "wrap",
-        marginTop: "3rem",  
       }}
     >
       {[cardsList]}
 
-      <div className="w-full">
+      <div className="w-[40rem]">
         <Charts />
       </div>
     </div>
