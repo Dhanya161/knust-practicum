@@ -639,7 +639,7 @@
     },
     {
       "id": 18,
-      "name": "survey results",
+      "name": "survey result",
       "createdAt": "Tue 10 Mar 2020",
       "type": "data",
       "file": "resultsFile url"
