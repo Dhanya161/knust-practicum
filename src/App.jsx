@@ -3,10 +3,11 @@ import "remixicon/fonts/remixicon.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.min.js";
 import "./App.css";
-import Header from "./components/Header/Header"
-import SideBar from "./components/SideBar/SideBar";
-import Dashboard from "./components/Dashboard/Dashboard";
-import Activity from "./components/Activity/Activity";
+import Header from "./components/Header";
+import SideBar from "./components/SideBar";
+import Dashboard from "./components/Dashboard";
+import Manage from "./components/Manage";
+import Activity from "./components/Activity";
 import {
   BrowserRouter,
   Routes,
@@ -17,14 +18,12 @@ import {
   RouteObject
 } from "react-router-dom";
 import SheetComponent from "./components/ui/Sheet";
-import ExpandCard from "./components/Manage/ExpandCard";
+import ExpandCard from "./components/ExpandCard";
 import { Loader } from "lucide-react";
 import {auth} from "./firebase.config"
 import { useEffect } from "react";
 import SignInComponent from "./authentication/signInComponent"
 import {getCookie} from "./lib/utils"
-import { elements } from "chart.js";
-import Manage from "./components/Manage/Manage"
 
 
 
@@ -68,13 +67,7 @@ const routes = [
     path: "/auth",
     
     element: <SignInComponent />,
-  },
-  {
-    path: "/manage",
-    element: <Manage/>
-
   }
-
 ];
 
 const router = createBrowserRouter(routes);
@@ -86,7 +79,7 @@ function App() {
   //  }
   // },[])
   return (
-    <div style={{ marginTop: "100px" }} className="font-normal">
+    <div style={{ marginTop: "50px" }}>
       <Header />
       <RouterProvider router={router} />
     </div>
